@@ -1,6 +1,6 @@
 import './App.css'
 import ProfileHeader from './components/ProfileHeader'
-import About from './components/About'
+import AboutSection from './components/AboutSection'
 import SocialFooter from './components/SocialFooter'
 
 export default function App(){
@@ -8,7 +8,7 @@ export default function App(){
     <>
     <article>
         <ProfileHeader/>
-        <About/>
+        <AboutSection />
         <SocialFooter />
     </article>
     </>
