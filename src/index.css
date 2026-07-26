@@ -36,11 +36,12 @@ body{
     justify-content: center;
     align-items: center;
     font-family: var(--font-text);
-    background-color: var(--intro-color);
+    background-color: var(--section-light);
 }
 
 #root{
     width: 380px;
-    background-color: var(--bg-color);
+    background: linear-gradient(var(--bg-color),rgba(152, 70, 229, 0.05));
     border-radius: 10px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }

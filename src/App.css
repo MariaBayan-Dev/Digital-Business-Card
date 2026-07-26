@@ -15,13 +15,45 @@ header img{
     border-radius: 50%;
     object-fit: cover;
     margin-bottom: 1rem;
+    border: 2px solid white;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 
-header h1{
+.header__title{
     color: var(--primary-color);
     font-size: 1.8rem;
 }
 
-header p{
+.header__subtitle{
     color: var(--text-color);
+    opacity: 0.85;
+    font-size: 1rem;
+}
+
+.header__tech{
+    font-size: 0.70rem;
+}
+
+.contact-links{
+    display: flex;
+    gap: 1rem;
+}
+
+.contact-links a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+
+.contact__btn{
+    background-color: var(--secondary-color);
+    color: white;
+    padding: 0.6rem;
+    border-radius: 50%;
+    transition: background-color 0.3s ease;
+}
+
+.contact__btn:hover{
+    background-color: var(--color-accent);
 }

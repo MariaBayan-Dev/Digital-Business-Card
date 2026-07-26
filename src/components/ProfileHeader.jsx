@@ -10,11 +10,11 @@ export default function ProfileHeader(){
             <p className="header__tech">HTML, CSS, JavaScript, React, Vite</p>
 
             <div className="contact-links">
-                <a href="mailto:mariabayanescobar@gmail.com" rel="noopener noreferrer" target="_blank">
-                    <Mail />
+                <a className="contact__btn" href="mailto:mariabayanescobar@gmail.com" rel="noopener noreferrer" target="_blank">
+                    <Mail size={18} />
                 </a>
-                <a href="https://mariabayan.netlify.app/" rel="noopener noreferrer" target="_blank">
-                    <Link />
+                <a className="contact__btn" href="https://mariabayan.netlify.app/" rel="noopener noreferrer" target="_blank">
+                    <Link size={18} />
                 </a>
             </div>
         </header>
