@@ -4,16 +4,17 @@ export default function AboutSection(){
             <div className="section__about">
                 <h2 className="section__title">Sobre mí</h2>
                 <p className="section__text">
-                    Autodidacta, resolutiva y con capacidad de aprendizaje rápido, ideal para adaptarme 
-                    a nuevos equipos y retos.
+                    Actualmente me formo de manera autodidacta, combinando creatividad y programación 
+                    con el objetivo de iniciar mi carrera como desarrolladora frontend y
+                    seguir creciendo tanto a nivel técnico como creativo.
                 </p>
             </div>
 
             <div className="section__interests">
                 <h2 className="section__title">Intereses</h2>
                 <p className="section__text">
-                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
-                    Quo, officia?
+                    Me apasiona el dibujo digital, el diseño gráfico. Disfruto convirtiendo esas 
+                    influencias creativas en ideas para proyectos web.
                 </p>
             </div>
         </section>
