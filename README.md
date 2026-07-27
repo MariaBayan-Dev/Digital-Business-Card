@@ -1,17 +1,33 @@
-# React + Vite
+# 💜 Digital Business Card
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Digital business card built with React, based on Scrimba's course exercise (subscriber-only). 
+Recreated independently.
 
-Currently, two official plugins are available:
+## 🚀 Features
+- Responsive personal profile card with photo, role, tech stack badges, and contact links.
+- About and Interests sections with custom content.
+- Social footer with GitHub and LinkedIn icons.
+- Custom purple color palette matching personal brand identity.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🛠️ Technologies
+![React](https://shields.io/badge/-React-4377cb?logo=react)
+![Vite](https://img.shields.io/badge/-Vite-B73BFE?style=flat&logo=vite&logoColor=white)
+![Static Badge](https://img.shields.io/badge/React_icons-%23E91E63)
+![Static Badge](https://img.shields.io/badge/Lucide_icons-%23F56565)
 
-## React Compiler
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 📚 What I learned
+- Component composition and reusable structure across multiple files.
+- Semantic HTML decisions in React: when to use `article`, `section`, `header`, `footer`,
+  and when `<>` (Fragment) is or isn't needed.
+- Deploying a Vite + React project to GitHub Pages with gh-pages.
+- Working with third-party icon libraries (react-icons, lucide-react).
+- Flexbox nested containers for multi-direction layouts (column + row).
 
-## Expanding the ESLint configuration
+## 🔮 Future Improvements
+- Add hover states and transitions.
+- Make content dynamic (e.g. fetched from a config file or API).
+- Dark mode.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-# Digital-Business-Card
+## 🔗 Live Demo
+- [Digital Business Card](https://mariabayan-dev.github.io/Digital-Business-Card/)
