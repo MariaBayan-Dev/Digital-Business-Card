@@ -31,3 +31,7 @@ Recreated independently.
 
 ## 🔗 Live Demo
 - [Digital Business Card](https://mariabayan-dev.github.io/Digital-Business-Card/)
+
+## 📸 Preview
+
+<img width="587" height="912" alt="digital-business-card-maria" src="https://github.com/user-attachments/assets/99da660a-c716-415b-9a8b-d73b9fd973ca" />
