@@ -11,8 +11,8 @@
 
     --primary-color: #9b5de5;
     --secondary-color: #C8A6F3;
+    --tertiary-color: #4c2977;
     --color-accent: #7749af;
-    --color-links: #3f1b6b;
 
     --card-bg: #ffffff;
     --section-light: #ffffff;
@@ -20,7 +20,6 @@
 
     --font-title: 'Outfit', sans-serif;
     --font-text: 'Inter', sans-serif;
-    --logo-text: 'Nanum Pen Script', sans-serif;
 }
 
 /*------ESTILOS GENERALES------*/

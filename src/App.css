@@ -2,7 +2,7 @@
 
 header{
     display: flex;
-    background-color: var(--primary-color);
+    background-color: var(--tertiary-color);
     flex-direction: column;
     align-items: center;
     text-align: center;
@@ -21,6 +21,7 @@ header img{
 }
 
 .header__title{
+    font-family: var(--font-title);
     color: white;
     font-size: 1.8rem;
 }
@@ -32,9 +33,41 @@ header img{
 }
 
 .header__tech{
-    font-size: 0.70rem;
+    display: flex;
+    gap: 1rem;
     margin-bottom: 1rem;
 }
+
+.header__tech span{
+    padding: 0.20rem 0.40rem;
+    border-radius: 5px;
+    font-size: 0.70rem;
+    font-weight: 600;
+}
+
+/*COLORES TECNOLOGIAS*/
+
+.tech__html{
+    color: white;
+    background-color: #e34c26;
+}
+
+.tech__css{
+    color: white;
+    background-color: #7e57c2;
+}
+
+.tech__js{
+    background-color: #f7df1e;
+}
+
+.tech__react{
+    color: white;
+    background-color: #087A9F;
+}
+
+/*FIN COLORES TECNOLOGIAS*/
+
 
 .contact-links{
     display: flex;
@@ -49,15 +82,15 @@ header img{
 }
 
 .contact__btn{
-    background-color: var(--color-links);
+    background-color: var(--primary-color);
     color: white;
     padding: 0.6rem;
     border-radius: 50%;
-    transition: background-color 0.3s ease;
 }
 
 .contact__btn:hover{
-    background-color: var(--secondary-color);
+    background-color: var(--color-accent);
+    transition: background-color 0.2s ease;
 }
 
 /*---------ESTILOS ABOUT SECTION---------*/
@@ -74,6 +107,7 @@ section{
 }
 
 .section__title{
+    font-family: var(--font-title);
     margin-bottom: 1rem;
     color: var(--color-links);
     font-size: 1.3rem;
@@ -93,7 +127,7 @@ footer{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: var(--color-links);
+    background-color: var(--tertiary-color);
     padding: 1.5rem;
 }
 
@@ -105,5 +139,9 @@ footer{
 .footer__social a{
     color: white;
     text-decoration: none;
+}
 
+.footer__social a:hover svg{
+    color: var(--primary-color);
+    transition: color 0.2s ease;
 }

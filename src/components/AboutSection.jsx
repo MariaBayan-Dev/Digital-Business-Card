@@ -13,7 +13,7 @@ export default function AboutSection(){
             <div className="section__interests">
                 <h2 className="section__title">Intereses</h2>
                 <p className="section__text">
-                    Me apasiona el dibujo digital, el diseño gráfico. Disfruto convirtiendo esas 
+                    Me apasiona el dibujo digital y el diseño gráfico. Disfruto convirtiendo esas 
                     influencias creativas en ideas para proyectos web.
                 </p>
             </div>

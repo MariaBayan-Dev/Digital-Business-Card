@@ -7,7 +7,13 @@ export default function ProfileHeader(){
             <img src={photoProfile} alt="Imagen de perfil de María Bayán" />
             <h1 className="header__title">María Bayán Escobar</h1>
             <p className="header__subtitle">Frontend Developer Junior</p>
-            <p className="header__tech">HTML, CSS, JavaScript, React, Vite</p>
+            
+            <div className="header__tech">
+                <span className="tech__html">HTML</span>
+                <span className="tech__css">CSS</span>
+                <span className="tech__js">JS</span>
+                <span className="tech__react">React</span>
+            </div>
 
             <div className="contact-links">
                 <a className="contact__btn" href="mailto:mariabayanescobar@gmail.com" rel="noopener noreferrer" target="_blank">
