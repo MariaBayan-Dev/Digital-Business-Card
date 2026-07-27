@@ -5,13 +5,11 @@ import SocialFooter from './components/SocialFooter'
 
 export default function App(){
   return(
-    <>
     <article>
         <ProfileHeader/>
         <AboutSection />
         <SocialFooter />
     </article>
-    </>
   )
 }
 
