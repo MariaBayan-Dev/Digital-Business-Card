@@ -114,6 +114,7 @@ section{
 }
 
 .section__text{
+    font-family: var(--font-text);
     color: var(--text-color);
     margin-bottom: 2rem;
     font-size: 0.90rem;

@@ -1,21 +1,19 @@
 /*------FONT-------*/
 
-@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Nanum+Pen+Script&family=Outfit:wght@100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Outfit:wght@100..900&display=swap');
 
 /*----COLORES----*/
 
 :root {
     --bg-color: #f8f9fc;
     --text-color: #3f3f3f;
-    --intro-color: #717174;
 
     --primary-color: #9b5de5;
     --secondary-color: #C8A6F3;
     --tertiary-color: #4c2977;
-    --color-accent: #7749af;
+    --color-accent: #c39af3;
 
-    --card-bg: #ffffff;
-    --section-light: #ffffff;
+    --section-light: #fafafa;
     --section-soft: #f4eefa;
 
     --font-title: 'Outfit', sans-serif;
